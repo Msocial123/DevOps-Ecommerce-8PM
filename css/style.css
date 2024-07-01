@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.hero .container h2 {
+    font-size: 2em;
+}
+
+.hero .container p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.products {
+    padding: 2em 0;
+}
+
+.products .container {
+    text-align: center;
+}
+
+.products .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.products .product-item {
+    width: 23%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.products .product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.products .product-item h3 {
+    margin: 10px 0;
+}
+
+.products .product-item p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.products .product-item button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.products .product-item button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+}
