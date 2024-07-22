@@ -1,0 +1,10 @@
+apiVersion: v1 
+kind: Pod 
+metadata: 
+  name: trans-pod 
+spec:
+  containers:
+    - name: test-cont 
+      image: muralisocial123/nodeapp-transcation-history:latest
+      ports:
+        - containerPort: 3000
